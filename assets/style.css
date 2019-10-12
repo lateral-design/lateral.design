@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+	  font-size: 12px;
+  }
+}
+
+main {
+	margin-top: 10vh;
+
+	width: 800px;
+	max-width: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	width: 100%;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+.info {
+	margin-top: 10px;
+}
+
+.info li {
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.portfolio {
+	text-align: left;
+}
+
+.contact {
+	text-align: right;
+}
