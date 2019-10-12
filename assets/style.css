@@ -14,6 +14,19 @@ html { font-family: 'Inter', sans-serif; }
   }
 }
 
+@media only screen and (max-width: 400px) {
+  html {
+	  font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  html {
+	  font-size: 5px;
+  }
+}
+
+
 main {
 	margin-top: 10vh;
 
