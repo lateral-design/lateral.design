@@ -8,29 +8,28 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-@media only screen and (max-width: 700px) {
-  html {
-	  font-size: 10px;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   html {
-	  font-size: 7px;
+	  font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 300px) {
   html {
-	  font-size: 5px;
+	  font-size: 10px;
   }
 }
 
+@media only screen and (max-width: 200px) {
+  html {
+	  font-size: 8px;
+  }
+}
 
 main {
-	margin-top: 10vh;
+	margin-top: 25vh;
 
-	width: 800px;
+	width: 400px;
 	max-width: 90%;
 
 	margin-left: auto;
@@ -42,8 +41,8 @@ img {
 }
 
 h2 {
-	font-size: 2rem;
-	margin-bottom: 20px;
+	font-size: 1rem;
+	margin-bottom: 0px;
 }
 
 li {
@@ -61,7 +60,7 @@ a {
 }
 
 .info li {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-weight: 600;
 	letter-spacing: 0px;
 }
